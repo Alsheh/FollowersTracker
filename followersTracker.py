@@ -155,7 +155,7 @@ def numberOfFiles(path):
 def initialize(TWITTER_ACCOUNT, DIR, followers):
     os.makedirs(TWITTER_ACCOUNT)
     print TWITTER_ACCOUNT + " is registered as a new user."
-    print TWITTER_ACCOUNT + "has  %d followers and they are being tracked now.\n" %len(followrs)
+    print TWITTER_ACCOUNT + "has  %d followers and they are being tracked now.\n" %len(followers)
         
     currentTime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     filename = DIR + '0' + '.txt'
